@@ -15,21 +15,23 @@
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="menu.html">Our Menu</a></li>
-                <li><a href="order.html">Order Now</a></li>
+                <li><a href="#">Our Menu</a></li>
+                <li><a href="#">Order Now</a></li>
                 <li><a href="contact.html" id="page">Contact Us</a></li>
             </ul>
         </nav>
         <main>
             <div id="contact_div">
-                <section id="contact_photos">
+                <section>
+                    <h2 class="photos">Photos</h2>
                     <img src="photos/contact-img-optional1.jpg" alt="a clean and modern restaurant lobby.">
                     <img src="photos/contact-img-optional2.jpg" alt="a set dining table awaiting patrons.">
                     <img src="photos/contact-img-optional3.jpg" alt="a fall day outside of Wok Asian Cusine">
                 </section>
                 <section>
-                    <p id="formstat">Please fill out the form below and we will get back to you as soon as possible!</p>
-                    <p id="ast">(fields marked with an asterisk are required)</p>
+                    <h2 id="contacth2">Contact Us</h2>
+                    <p>Do you have dietary concerns? Questions about an upcoming event? Drop us a line, and we'll get back to you soon!</p>
+                    <p id="ast">(fields marked with an asterisk are required.)</p>
                     <form action="https://wp.zybooks.com/form-viewer.php" method="POST">
                         <label for="name">Name*</label>
                         <input type="text" name="name" id="name" required>
@@ -99,7 +101,7 @@
                         <input type="email" name="email" id="email" required>
                         <fieldset>
                             <legend>Preferred Method of Contact?</legend>	
-                            <input type="radio" name="contact" value="email" id="email" checked>
+                            <input type="radio" name="contact" value="email" checked>
                             <label for="email">Email</label>
                             <input type="radio" name="contact" value="phone" id="phone">
                             <label for="phone">Phone</label>

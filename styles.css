@@ -3,7 +3,6 @@
     line-height: 1.5;
     margin: 0 auto;
 
-
 }
 
 body {
@@ -142,6 +141,11 @@ section img {
 div h3 {
     font-size: 48px;
     color: #A6874E;
+    width: 640px;
+}
+
+#contacth2 {
+    width: 640px;
 }
 
 div p {
@@ -181,9 +185,13 @@ footer p {
     margin-bottom: 25px;
 }
 
+.photos {
+    height: 0px;
+}
+
 form {
-    align: center;
     margin: 0 auto;
+
 }
 
 label, input, select {
@@ -235,7 +243,7 @@ legend {
 }
 
 fieldset label {
-    margin-left: none;
+    margin-left: 0;
 }
 
 textarea {
